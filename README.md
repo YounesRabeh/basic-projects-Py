@@ -1,3 +1,3 @@
 # basic-projects-Py
-A repository for crappy cross-platform python applications
+A repository for personal crappy cross-platform python applications
 
