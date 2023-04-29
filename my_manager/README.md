@@ -18,7 +18,7 @@ pip3 install --upgrade pip
 ```
 ### Install the modules:
 ```
-pip3 install pathlib plyer numpy Pillow tk
+pip3 install pathlib plyer numpy Pillow tk textwrap3
 ```
 
 
