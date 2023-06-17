@@ -1,5 +1,5 @@
 from plyer import notification
-from app.resources.images_set_up import logo_icon_abs_path
+from my_manager.app.resources.images_set_up import logo_icon_abs_path
 import numpy as np
 import pathlib
 import os.path

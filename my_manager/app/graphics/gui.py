@@ -2,13 +2,13 @@
 import tkinter as tk
 from tkinter import ttk
 import tkinter.messagebox
-from app.resources.images_set_up import play_button_icon_abs_path as play_btn_path, \
+from my_manager.app.resources.images_set_up import play_button_icon_abs_path as play_btn_path, \
     pause_button_icon_abs_path as pause_btn_path, reset_button_icon_abs_path as reset_btn_path, \
     logo_icon_abs_path as logo_icon_path
 
 from PIL import ImageTk, Image
 import time
-from data.file_os_manager import notification_call, save_task_data, get_stored_data, NUMBER_OF_LINES, DATA_FILE, \
+from my_manager.data.file_os_manager import notification_call, save_task_data, get_stored_data, NUMBER_OF_LINES, DATA_FILE, \
     delete_data
 
 import textwrap
