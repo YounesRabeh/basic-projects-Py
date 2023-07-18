@@ -1,17 +1,26 @@
 import customtkinter
 
-customtkinter.set_appearance_mode("dark")  # Modes: system (default), light, dark
-customtkinter.set_default_color_theme("green")  # Themes: blue (default), dark-blue, green
+class MyFrame(customtkinter.CTkFrame):
+    def __init__(self, master, **kwargs):
+        super().__init__(master, **kwargs)
 
-app = customtkinter.CTk()  # create CTk window like you do with the Tk window
+        # add widgets onto the frame, for example:
+        self.label = customtkinter.CTkLabel(self)
+        self.label.grid(row=0, column=0, padx=20)
+
+
+class App(customtkinter.CTk):
+    def __init__(self):
+        super().__init__()
+        self.geometry("400x200")
+        self.grid_rowconfigure(0, weight=1)  # configure grid system
+        self.grid_columnconfigure(0, weight=1)
+
+        self.my_frame = MyFrame(master=self)
+        self.my_frame.grid(row=0, column=0, padx=20, pady=20, sticky="nsew")
+
+
+app = App()
 app.geometry("1300x900")
 app.attributes("-zoomed", True)
-
-def button_function():
-    print("button pressed")
-
-# Use CTkButton instead of tkinter Button
-button = customtkinter.CTkButton(master=app, text="CTkButton", command=button_function)
-button.place(relx=0.5, rely=0.5, anchor=customtkinter.CENTER)
-
 app.mainloop()

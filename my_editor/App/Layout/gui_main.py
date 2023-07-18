@@ -1,17 +1,12 @@
 import customtkinter
+from gui_resources import Info, SetUpWindow, UI
 
-customtkinter.set_appearance_mode("dark")  # Modes: system (default), light, dark
-customtkinter.set_default_color_theme("blue")  # Themes: blue (default), dark-blue, green
+app = customtkinter.CTk()  # create CTk window
+window_info = Info(app)  # window start info are fields in info
+window_set_up = SetUpWindow(app)  # init the window
+window_UI = UI(app, window_info)  # make the UI
 
-app = customtkinter.CTk()  # create CTk window like you do with the Tk window
-app.geometry("1300x900")
-app.attributes("-zoomed", True)
-
-def button_function():
-    print("button pressed")
 
 # Use CTkButton instead of tkinter Button
-button = customtkinter.CTkButton(master=app, text="CTkButton", command=button_function)
-button.place(relx=0.5, rely=0.5, anchor=customtkinter.CENTER)
 
 app.mainloop()
