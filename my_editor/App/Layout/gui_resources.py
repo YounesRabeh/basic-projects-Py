@@ -27,7 +27,7 @@ class UI:
         self.files_frame.place(relx=0, rely=0)
         self.window_frame = tk.CTkFrame(master=_app, fg_color="yellow", border_color="black",
                                         corner_radius=0, width=_inf.SCREEN_WIDTH//2, height=_inf.SCREEN_HEIGHT//1.86)
-        #self.window_frame.place(relx=0.5, rely=0)
+        self.window_frame.place(relx=0.5, rely=0)
         self.timeline_frame = tk.CTkFrame(master=_app, fg_color="blue", border_color="black",
                                           corner_radius=0, width=_inf.SCREEN_WIDTH, height=_inf.SCREEN_HEIGHT//2.24)
         self.timeline_frame.place(relx=0, rely=0.55)
@@ -35,9 +35,10 @@ class UI:
         self.button = tk.CTkButton(master=_app, text="CTkButton", command=lambda: (self.button_function(_inf)))
         self.button.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
 
-        self.my_text = tk.CTkLabel(master=self.files_frame, text=" ajSS ", fg_color='black', anchor=tk.CENTER)
-        self.my_text.place(relx=0.5, rely=0.95)
-
+        self.my_text = tk.CTkLabel(master=self.files_frame, text="  ajSS  ", fg_color='black', anchor=tk.CENTER,
+                                   corner_radius=9, width=310, height=100)
+        self.my_text.place(relx=0.5, rely=0.70)
 
     def button_function(self, _inf):
-        self.my_text.configure(text="gggggggg")
+
+        self.my_text.configure(text="g"*120)
