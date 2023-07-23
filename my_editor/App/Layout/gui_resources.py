@@ -1,4 +1,5 @@
 import customtkinter as tk
+from tkinter import Menu
 
 class Info:
     #DEFAULT:
@@ -15,8 +16,15 @@ class SetUpWindow:
         tk.set_default_color_theme("blue")
         size = f"{_inf.SCREEN_WIDTH//2}x{_inf.SCREEN_HEIGHT//2}"
         _app.geometry(size)
+        _app.minsize(_inf.SCREEN_WIDTH - 200, _inf.SCREEN_HEIGHT - 200)
         _app.attributes('-zoomed', True)  # Set the window to full screen
-        #_app.resizable(False, False)
+        # _app.resizable(False, False)
+        # create a window_menubar
+        window_menubar = Menu(_app, background="grey", border=0)
+        _app.config(menu=window_menubar)
+        file_menu = Menu(window_menubar)
+        file_menu.add_command(label='Exit', command=_app.destroy)  # add a menu item to the menu
+        window_menubar.add_cascade(label="File", menu=file_menu)  # add the File menu to the window_menubar
 
 
 class UI:
@@ -37,8 +45,7 @@ class UI:
 
         self.my_text = tk.CTkLabel(master=self.files_frame, text="  ajSS  ", fg_color='black', anchor=tk.CENTER,
                                    corner_radius=9, width=310, height=100)
-        self.my_text.place(relx=0.5, rely=0.70)
+        self.my_text.place(relx=0.5, rely=0.1, anchor=tk.CENTER)
 
     def button_function(self, _inf):
-
-        self.my_text.configure(text="g"*120)
+        self.my_text.configure(text="g"*20)
