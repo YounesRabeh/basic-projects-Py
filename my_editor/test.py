@@ -1,38 +1,27 @@
-import customtkinter
+import tkinter as tk
+def drag_start(event):
+    widget = event.widget
+    widget.startX = event.x
+    #widget.startY = event.y
 
+def drag_motion(event):
+    widget = event.widget
+    x = widget.winfo_x() - widget.startX + event.x
+    #y = widget.winfo_y() - widget.startY + event.y
+    widget.place(x=x)
 
-def button_function():
-    print("Button pressed")
+window = tk.Tk()
 
-app = customtkinter.CTk()
-app.attributes('-zoomed', True)  # Set the window to full screen
+label = tk.Label(window, bg="red", width=10, height=5)
+label.place(x=0, y=0)
 
+label2 = tk.Label(window, bg="blue", width=10, height=5)
+label2.place(x=100, y=100)
 
-frame1_width = screen_width // 2
-frame1_height = screen_height // 2
+label.bind("<Button-1>",drag_start)
+label.bind("<B1-Motion>",drag_motion)
 
-frame2_width = frame1_height
-frame2_height = frame1_height
+label2.bind("<Button-1>",drag_start)
+label2.bind("<B1-Motion>",drag_motion)
 
-frame1 = customtkinter.CTkFrame(app,  bg_color="blue", width=frame1_width, height=frame1_height)
-frame1.pack(side="top", anchor="nw")
-
-frame2 = customtkinter.CTkFrame(app,  width=screen_width, height=frame2_height)
-frame2.pack(side="top", anchor="s")
-
-frame3 = customtkinter.CTkFrame(app,  width=frame2_width, height=frame2_height)
-frame3.pack(side="top", anchor="ne")
-
-button = customtkinter.CTkButton(master=frame1, text="CTkButton", command=button_function)
-button.place(relx=0.5, rely=0.5, anchor="center")
-
-app.mainloop()
-
-
-
-
-
-
-
-
-
+window.mainloop()

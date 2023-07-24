@@ -4,7 +4,7 @@ from urllib.parse import urlparse, parse_qs
 from contextlib import suppress
 from pathlib import Path
 
-SAVE_PATH = "C:\\Users\\rabeh\\Desktop\\YOUNES STUFF\\PYTHON_Projects\\First\\Downloads"
+SAVE_PATH = "/home/YOUNES/Desktop/YOUNES/Python Projects/basic-projects-Py/YouTubeDownloader/Downloads"
 
 # TODO: audio, streams , recent one, overwrite, dim options
 # add the file name , the audio , the over write, 

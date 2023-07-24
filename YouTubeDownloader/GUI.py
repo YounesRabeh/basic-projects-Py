@@ -19,7 +19,7 @@ window.resizable(width=False, height=False)
 window.title("Video Downloader")                                                                                                                                                                                    
 
 ent1 = Entry(window, font=font18B)
-ent1.insert(END, 'ENTER-THE-LINK')
+ent1.insert(END, 'ENTER_THE_LINK')
 
 ent2 = Entry(window, font=font10)
 ent2.insert(END, SAVE_PATH)
