@@ -2,7 +2,7 @@ import customtkinter as tk
 import tkinter as tkN
 
 tk.set_appearance_mode("dark")  # Modes: system (default), light, dark
-tk.set_default_color_theme("green")  # Themes: blue (default), dark-blue, green
+tk.set_default_color_theme("blue")  # Themes: blue (default), dark-blue, green
 
 APP = None
 
@@ -10,11 +10,11 @@ APP = None
 class SetUp:
     def __init__(self, _app):
         global APP
-
         APP = _app
 
-
+        ###########################################
         APP.geometry("1000x700")
+        APP.resizable(False, False)
         APP.title("FLAG GUESSER")
         APP.config()
 
@@ -29,6 +29,8 @@ class UI:
     index = 0
     bg_color = ""
 
+    entry_box = None
+
     def __init__(self, flags_ls):
         self.bg_color = APP.cget("background")
         self.flags_ls = flags_ls
@@ -37,6 +39,9 @@ class UI:
                                       highlightthickness=0, highlightbackground=self.bg_color)
         self.flag_image_canvas.place(x=150, y=100)
         self.update_canvas()
+
+        self.entry_box = (tk.CTkEntry(APP, width=650, height=80, font=("Helvetica", 35, "bold"),
+                                      ).place(x=150, y=600))
 
 
     def update_canvas(self):
@@ -50,6 +55,6 @@ class UI:
 
 
     def update_ui(self):
-        APP.after(500, self.update_ui)
-        self.set_index(self.index + 1)
+        APP.after(2000, self.update_ui)
+        self.set_index(self.index+1)
         self.update_canvas()
