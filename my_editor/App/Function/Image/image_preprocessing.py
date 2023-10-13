@@ -10,7 +10,7 @@ def resize_image(image_path, width, height):
 def open_image():
     file_path = filedialog.askopenfilename(filetypes=[("Image files", "*.png;*.jpg;*.jpeg;*.gif")])
     if file_path:
-        img = resize_image(file_path, 1400, 400)
+        img = resize_image(file_path, 400, 400)
         canvas.image = img
         canvas.create_image(0, 0, anchor=tk.NW, image=img)
 
@@ -18,7 +18,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     root.title("Image Resizer")
 
-    canvas = tk.Canvas(root, width=1500, height=900)
+    canvas = tk.Canvas(root, width=400, height=400)
     canvas.pack()
 
     open_button = tk.Button(root, text="Open Image", command=open_image)
