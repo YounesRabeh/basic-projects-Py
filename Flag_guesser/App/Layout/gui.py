@@ -12,9 +12,11 @@ class SetUp:
         global APP
 
         APP = _app
+
+
         APP.geometry("1000x700")
         APP.title("FLAG GUESSER")
-        APP.config(bg="Black")
+        APP.config()
 
 
 
@@ -25,12 +27,14 @@ class UI:
     flag_image = None
     flag_ls = []
     index = 0
+    bg_color = ""
 
     def __init__(self, flags_ls):
+        self.bg_color = APP.cget("background")
         self.flags_ls = flags_ls
         self.flag_image_canvas = tkN.Canvas(APP, width=640, height=426)
-        self.flag_image_canvas.config(borderwidth=0, bg="Black",
-                                      highlightthickness=0, highlightbackground="BLACK")
+        self.flag_image_canvas.config(borderwidth=0, bg=self.bg_color,
+                                      highlightthickness=0, highlightbackground=self.bg_color)
         self.flag_image_canvas.place(x=150, y=100)
         self.update_canvas()
 
