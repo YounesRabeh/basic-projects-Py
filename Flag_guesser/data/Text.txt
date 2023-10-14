@@ -1,0 +1,242 @@
+Afghanistan.png
+Albania.png
+Algeria.png
+American Samoa.png
+Andorra.png
+Angola.png
+Anguilla.png
+Antarctica.png
+Antigua and Barbuda.png
+Argentina.png
+Armenia.png
+Aruba.png
+Australia.png
+Austria.png
+Azerbaijan.png
+Bahrain.png
+Bangladesh.png
+Barbados.png
+Belarus.png
+Belgium.png
+Belize.png
+Benin.png
+Bermuda.png
+Bhutan.png
+Bolivia.png
+Bonaire.png
+Bosnia and Herzegovina.png
+Botswana.png
+Bouvet Island.png
+Brazil.png
+British Indian Ocean Territory.png
+British Virgin Islands.png
+Brunei Darussalam.png
+Bulgaria.png
+Burkina Faso.png
+Burundi.png
+Cambodia.png
+Cameroon.png
+Canada.png
+Cape Verde.png
+Cayman Islands.png
+Central African Republic.png
+Chad.png
+Chile.png
+China.png
+Christmas Island.png
+Cocos Islands.png
+Colombia.png
+Comoros.png
+Cook Islands.png
+Costa Rica.png
+Croatia.png
+Cuba.png
+Curaçao.png
+Cyprus.png
+Czech Republic.png
+Côte d'Ivoire.png
+Democratic Republic of the Congo.png
+Denmark.png
+Djibouti.png
+Dominica.png
+Dominican Republic.png
+Ecuador.png
+Egypt.png
+El Salvador.png
+England.png
+Equatorial Guinea.png
+Eritrea.png
+Estonia.png
+Eswatini.png
+Ethiopia.png
+Falkland Islands.png
+Faroe Islands.png
+Fiji.png
+Finland.png
+France.png
+French Guiana.png
+Gabon.png
+Gambia.png
+Georgia.png
+Germany.png
+Ghana.png
+Gibraltar.png
+Greece.png
+Greenland.png
+Grenada.png
+Guadeloupe.png
+Guam.png
+Guatemala.png
+Guernsey.png
+Guinea.png
+Guinea-Bissau.png
+Guyana.png
+Haiti.png
+Honduras.png
+Hong Kong.png
+Hungary.png
+Iceland.png
+India.png
+Indonesia.png
+Iran.png
+Iraq.png
+Ireland.png
+Isle of Man.png
+Israel.png
+Italy.png
+Jamaica.png
+Japan.png
+Jersey.png
+Jordan.png
+Kazakhstan.png
+Kenya.png
+Kiribati.png
+Kosovo.png
+Kuwait.png
+Kyrgyzstan.png
+Laos.png
+Latvia.png
+Lebanon.png
+Lesotho.png
+Liberia.png
+Libya.png
+Liechtenstein.png
+Lithuania.png
+Luxembourg.png
+Macau.png
+Madagascar.png
+Malawi.png
+Malaysia.png
+Maldives.png
+Mali.png
+Malta.png
+Marshall Islands.png
+Martinique.png
+Mauritania.png
+Mauritius.png
+Mayotte.png
+Mexico.png
+Moldova.png
+Monaco.png
+Mongolia.png
+Montenegro.png
+Montserrat.png
+Morocco.png
+Mozambique.png
+Myanmar.png
+Namibia.png
+Nauru.png
+Nepal.png
+Netherlands.png
+New Caledonia.png
+New Zealand.png
+Nicaragua.png
+Niger.png
+Nigeria.png
+Niue.png
+Norfolk Island.png
+North Korea.png
+North Macedonia.png
+Northern Ireland.png
+Northern Mariana Islands.png
+Norway.png
+Oman.png
+Pakistan.png
+Palau.png
+Palestine.png
+Panama.png
+Papua New Guinea.png
+Paraguay.png
+Peru.png
+Philippines.png
+Pitcairn Islands.png
+Poland.png
+Portugal.png
+Puerto Rico.png
+Qatar.png
+Republic of the Congo.png
+Romania.png
+Russia.png
+Rwanda.png
+Réunion.png
+Saint Helena.png
+Saint Kitts and Nevis.png
+Saint Lucia.png
+Saint Martin.png
+Samoa.png
+San Marino.png
+Saudi Arabia.png
+Scotland.png
+Senegal.png
+Serbia.png
+Seychelles.png
+Sierra Leone.png
+Singapore.png
+Sint Maarten.png
+Slovakia.png
+Slovenia.png
+Solomon Islands.png
+Somalia.png
+South Africa.png
+South Korea.png
+South Sudan.png
+Spain.png
+Sri Lanka.png
+Sudan.png
+Suriname.png
+Sweden.png
+Switzerland.png
+Syria.png
+Taiwan.png
+Tajikistan.png
+Tanzania.png
+Thailand.png
+The Bahamas.png
+Timor-Leste.png
+Togo.png
+Tokelau.png
+Tonga.png
+Trinidad and Tobago.png
+Tunisia.png
+Turkey.png
+Turkmenistan.png
+Turks and Caicos Islands.png
+Tuvalu.png
+Uganda.png
+Ukraine.png
+United Arab Emirates.png
+United Kingdom.png
+United States.png
+United States Minor Outlying Islands.png
+United States Virgin Islands.png
+Uruguay.png
+Uzbekistan.png
+Vanuatu.png
+Vatican City.png
+Venezuela.png
+Vietnam.png
+Wales.png
+Western Sahara.png
+Yemen.png
+Zambia.png
+Zimbabwe.png

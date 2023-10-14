@@ -46,15 +46,16 @@ class UI:
 
     def update_canvas(self):
         self.flag_image = tkN.PhotoImage(file=self.flags_ls[self.index])
-        print(self.flags_ls[self.index])
+        #print(self.flags_ls[self.index])
         self.flag_image_canvas.create_image(320, 200, image=self.flag_image)
 
 
     def set_index(self, new_index):
+        #TODO: add overflow exception
         self.index = new_index
 
 
     def update_ui(self):
-        APP.after(2000, self.update_ui)
+        APP.after(5000, self.update_ui)
         self.set_index(self.index+1)
         self.update_canvas()
